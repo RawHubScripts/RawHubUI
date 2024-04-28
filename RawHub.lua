@@ -1,8 +1,8 @@
 --[[
 
-	AirHub by Exunys © CC0 1.0 Universal (2023)
+	RawHub UI by Psyycic © CC0 1.0 Universal (2024)
 
-	https://github.com/Exunys
+	https://github.com/RawHubScripts
 
 ]]
 
@@ -40,10 +40,10 @@ Library.UnloadCallback = function()
 end
 
 local MainFrame = Library:CreateWindow({
-	Name = "AirHub",
+	Name = "RawHub UI",
 	Themeable = {
 		Image = "7059346386",
-		Info = "Made by Exunys\nPowered by Pepsi's UI Library",
+		Info = "Made by adam aka psyycic / Powered by Pepsi's UI Library",
 		Credit = false
 	},
 	Background = "",
@@ -902,7 +902,7 @@ FunctionsSection:AddButton({
 FunctionsSection:AddButton({
 	Name = "Copy Script Page",
 	Callback = function()
-		setclipboard("https://github.com/Exunys/AirHub")
+		setclipboard("https://github.com/RawHubScripts/RawHubUI")
 	end
 })
 
@@ -921,8 +921,8 @@ do
 	end
 
 	game.StarterGui:SetCore("SendNotification", {
-		Title = "🎆  AirHub V2  🎆",
-		Text = "Would you like to use the new AirHub V2 script?",
+		Title = "RawHub V1.1",
+		Text = "Would you like to use the new script?",
 		Button1 = "Yes",
 		Button2 = "No",
 		Duration = 1 / 0,
